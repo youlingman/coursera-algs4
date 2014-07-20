@@ -14,6 +14,9 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+# java class
+*.class
+
 # =========================
 # Operating System Files
 # =========================
@@ -34,7 +37,3 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
-
-
-# java class
-.class
