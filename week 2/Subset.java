@@ -3,6 +3,7 @@ public class Subset {
         int k = Integer.parseInt(args[0]);
         int n = 1;
         RandomizedQueue<String> queue = new RandomizedQueue<String>();
+		// use Reservoir sampling algorithm below to get bonus
         while (!StdIn.isEmpty()) {
             String tmp = StdIn.readString();
             if (n <= k) {
